@@ -218,9 +218,18 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 75px;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copywrite {
@@ -311,15 +320,17 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
   text-align: center;
   margin: 0;
 }
 
-.features i {
-  font-size: 3.75em;
-  margin-bottom: 40px;
-}
+
 
 /* Reviews */
 
